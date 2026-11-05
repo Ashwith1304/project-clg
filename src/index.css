@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-canvas: #081426;
+  --color-sidebar: #0B1830;
+  --color-card: #12243F;
+  --color-card-hover: #162B4C;
+  --color-primary: #2684FF;
+  --color-cyan: #19C5E8;
+  --color-text-main: #F5F7FA;
+  --color-text-muted: #9BAFC8;
+  --color-border-subtle: #263B59;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #081426;
+  color: #F5F7FA;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #081426;
+}
+::-webkit-scrollbar-thumb {
+  background: #263B59;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2684FF;
+}
+
+/* Tabular figures for all numerical tables and metrics */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

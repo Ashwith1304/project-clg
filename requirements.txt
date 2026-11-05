@@ -1,0 +1,13 @@
+# Core Data Analytics & Scientific Computing
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization & Dashboard
+plotly>=5.18.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+streamlit>=1.30.0
+
+# Database
+# Note: sqlite3 is built into Python Standard Library

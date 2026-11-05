@@ -1,0 +1,6 @@
+{
+  "name": "Customer Churn BI & Analytics Platform",
+  "description": "An Interactive Data Analytics Platform for Understanding Customer Retention with IBM Telco Dataset, SQLite analytics, statistical hypothesis testing, and executive dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
